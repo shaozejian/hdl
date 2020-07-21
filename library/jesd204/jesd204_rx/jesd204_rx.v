@@ -511,6 +511,7 @@ assign ilas_config_addr = 'b0;
 assign ilas_config_data = 'b0;
 assign status_lane_cgs_state = 'b0;
 assign status_lane_ifs_ready = {NUM_LANES{1'b1}};
+assign event_frame_alignment_error = 1'b0;
 
 end
 
